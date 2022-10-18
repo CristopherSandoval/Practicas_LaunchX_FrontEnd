@@ -11,15 +11,6 @@
         <img src="C:\Users\chris\Practicas_LaunchX_FrontEnd\images\Pastelería Jolie.PNG" alt =  logodejolie>
     </header>
 <body>
-    <h3> Escoge un sabor </h3>
-    <form>
-        <input type="checkbox" id="sabor1" name = "chocolate" value = "chocolate">
-        <label for = "sabor1">Chocolate</label><br>
-        <input type="checkbox" id="sabor2" name = "vainilla" value = "vainilla">
-        <label for = "sabor2">Vainilla</label><br>
-        <input type="checkbox" id="sabor3" name = "tres leches" value = "tres leches">
-        <label for = "sabor3">Tres Leches</label><br>
-    </form>
     <h3> Adornos del pastel </h3>
     <form>
         <input type="checkbox" id="adorno1" name = "Fresas" value = "Fresas">
@@ -29,5 +20,48 @@
         <input type="checkbox" id="adorno3" name = "chocolate " value = "chocolate">
         <label for = "adorno3">chocolate</label><br>
     </form>
+
+    <h3> Formulario para poder confirmar el pedido</h3>
+    <form action="" method="post">
+        <label for = "fname">First name</label><br>
+        <input type = "text" id = "fname"><br>
+
+        <label for = "lname">Last name</label><br>
+        <input type = "text" id = "lname"><br>
+
+        <label for = "nphone">Phone number</label><br>
+        <input type = "number" id = "nphone" name = "nphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required><br>
+        <small>Format: 123-456-7890</small><br>  
+
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="descripcion">Descripcion</label><br>
+        <input type="text" id="descripcion" name="descripcion" style="height: 120px; width:200px"><br><br>
+
+        <h4> Escoge los sabores de tu Pastel </h4>
+        <input type="checkbox" id="sabor1" name = "chocolate" value = "chocolate">
+        <label for = "sabor1">Chocolate</label><br>
+
+        <input type="checkbox" id="sabor2" name = "vainilla" value = "vainilla">
+        <label for = "sabor2">Vainilla</label><br>
+
+        <input type="checkbox" id="sabor3" name = "tres leches" value = "tres leches">
+        <label for = "sabor3">Tres Leches</label><br>
+
+        <h4> Escoge los adornos que llevar[a tu pastel</h4>
+        <input type="checkbox" id="adorno1" name = "Fresas" value = "Fresas">
+        <label for = "adorno1">Fresas</label><br>
+
+        <input type="checkbox" id="adorno2" name = "Nuez" value = "Nuez">
+        <label for = "adorno2">Nuez</label><br>
+        
+        <input type="checkbox" id="adorno3" name = "chocolate " value = "chocolate">
+        <label for = "adorno3">chocolate</label><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
 </body>
 </html>
