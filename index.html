@@ -11,15 +11,35 @@
         <img src="C:\Users\chris\Practicas_LaunchX_FrontEnd\images\Pastelería Jolie.PNG" alt =  logodejolie>
     </header>
 <body>
-    <h3> Adornos del pastel </h3>
-    <form>
-        <input type="checkbox" id="adorno1" name = "Fresas" value = "Fresas">
-        <label for = "adorno1">Fresas</label><br>
-        <input type="checkbox" id="adorno2" name = "Nuez" value = "Nuez">
-        <label for = "adorno2">Nuez</label><br>
-        <input type="checkbox" id="adorno3" name = "chocolate " value = "chocolate">
-        <label for = "adorno3">chocolate</label><br>
-    </form>
+    
+    <h3> SABORES DE PASTELES </h3>
+    <table>
+        <div class="City">
+        <tr> 
+            <div class="City">
+            <th>CHOCOLATE</th>
+            </div>
+            <th>VAINILLA</th>
+        </div>
+            <th>TRES LECHES</th>
+
+        </tr>
+    </div>
+        <tr>
+            <th>Precio ... $55</th>
+            <th>Precio ... $62</th>
+            <th>Precio ... $70</th>
+        </tr>
+    </table>
+    <h3> Decoraciones disponibles  </h3>
+    <dl>
+        <dt>Decoración de FRESAS</dt>
+        <dd>PRECIO............ <strong>$15 extras</strong></dd>
+        <dt>Decoración de VELITAS</dt>
+        <dd>PRECIO............<strong>$10 extras</strong></dd>
+        <dt>Decoración de Betún</dt>
+        <dd>PRECIO............<strong>$20 extras</strong></dd>
+      </dl>
 
     <h3> Formulario para poder confirmar el pedido</h3>
     <form action="" method="post">
@@ -54,14 +74,38 @@
         <input type="checkbox" id="adorno1" name = "Fresas" value = "Fresas">
         <label for = "adorno1">Fresas</label><br>
 
-        <input type="checkbox" id="adorno2" name = "Nuez" value = "Nuez">
-        <label for = "adorno2">Nuez</label><br>
+        <input type="checkbox" id="adorno2" name = "Velitas" value = "Velitas">
+        <label for = "adorno2">Velitas</label><br>
         
-        <input type="checkbox" id="adorno3" name = "chocolate " value = "chocolate">
-        <label for = "adorno3">chocolate</label><br>
+        <input type="checkbox" id="adorno3" name = "Nueces " value = "Nueces">
+        <label for = "adorno3">Nueces</label><br>
+
+        <label for = "tienda"> Recoger pedido en: </label>
+        <select id="tienda" name="tienda">
+            <option value="Garza Sada"> Garza Sada </option>
+            <option value="Lazaro Cardenas"> Lazaro Cardenas </option>
+        </select>
         <input type="submit" value="Submit">
     </form>
 
+    <table>
+
+        <tr> 
+
+            <th>Direcciones</th>
+
+            <th>Telefono</th>
+        </div>
+            <th>Horarios de atencion</th>
+
+        </tr>
+
+        <tr>
+            <th>Avenida Eugenio Garza Sada 3820, 64780 Monterrey, Nuevo León, Mexico <hr> Avenida Lazaro Cardenas </th>
+            <th>8145263525 <hr> 8124578965</th>
+            <th>8:30 a 22:00 <hr> 8:30 a 22:00</th>
+        </tr>
+    </table>
 
 </body>
 </html>
